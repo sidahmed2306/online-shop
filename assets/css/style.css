@@ -14,47 +14,56 @@
   font-family: extrabold;
   src: url(../fonts/Karla-ExtraBoldItalic.ttf);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 5vh 10vw;
 }
+
 h2 {
   font-size: 2rem;
   text-transform: uppercase;
   font-family: semibold;
   font-weight: 600;
 }
+
 nav ul {
   display: flex;
   gap: 40px;
   list-style: none;
 }
+
 nav ul li a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #323a45;
 }
+
 .main-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto 10vw 10vw 10vw;
   gap: 40px;
 }
+
 figcaption {
   display: flex;
   justify-content: space-between;
 }
+
 .head {
   grid-column: 1/-1;
 }
